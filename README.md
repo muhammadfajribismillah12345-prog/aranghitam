@@ -71,7 +71,7 @@ Buka dengan editor teks (Notepad++, VS Code). Yang **wajib** diganti sebelum liv
 | `products[].loadKg` | `{ "20ft": 18000 }` | Kapasitas muat per kontainer |
 | `ports[].days` | `[14, 20]` | Estimasi transit (hari) — cocokkan dengan forwarder Anda |
 
-Alamat situs saat ini `https://aranghitam.github.io` (sudah terpasang di `config.js`, `index.html` — tag `canonical`, `og:url`, `og:image` — dan `sitemap.xml`). Jika nanti pindah ke domain sendiri, ganti alamat itu di keempat tempat tersebut.
+Alamat situs saat ini `https://muhammadfajribismillah12345-prog.github.io/aranghitam/` (terpasang di `config.js`, `index.html` — tag `canonical`, `og:url`, `og:image` — dan `sitemap.xml`). Saat pindah ke `https://aranghitam.github.io` atau domain sendiri, ganti alamat itu di ketiga file tersebut.
 
 ### Foto produk asli
 Simpan foto (rasio 4:3, ±1200×900 px, JPG/WebP) di `assets/img/products/`, lalu isi `image` pada produk:
@@ -116,8 +116,12 @@ Kirim PDF ini ke buyer via WhatsApp/email — QR code di dalamnya langsung membu
 
 ## 5. Online-kan (hosting)
 
-**Saat ini:** di-hosting gratis di **GitHub Pages** → `https://aranghitam.github.io`
-(organisasi GitHub `aranghitam`, repository `aranghitam.github.io`, branch `main`).
+**Saat ini:** di-hosting gratis di **GitHub Pages** →
+`https://muhammadfajribismillah12345-prog.github.io/aranghitam/`
+(repository `muhammadfajribismillah12345-prog/aranghitam`, branch `main`).
+
+**Rencana:** pindah ke subdomain `https://aranghitam.github.io` setelah organisasi GitHub
+`aranghitam` dibuat (repository `aranghitam.github.io` di organisasi itu).
 
 Cara memperbarui website setelah mengedit file (dari folder ini, di terminal):
 ```
@@ -127,8 +131,10 @@ git push
 ```
 Perubahan tampil online ±1 menit kemudian.
 
-Selama `demoMode: true`, situs sengaja disembunyikan dari Google (`robots.txt` + tag `noindex`).
-Saat resmi live: `demoMode: false` dan ganti isi `robots.txt` sesuai petunjuk di dalam file itu.
+Selama masih pratinjau, situs sengaja disembunyikan dari Google (tag `noindex` di `index.html`,
+plus `robots.txt` bila nanti di-hosting di root domain).
+Saat resmi live: `demoMode: false`, hapus baris `<meta name="robots" …>` di `index.html`,
+dan ganti isi `robots.txt` sesuai petunjuk di dalam file itu.
 
 Alternatif lain (juga tanpa server atau database):
 
@@ -141,8 +147,8 @@ Saran domain: `.com` (mis. `lampungcoconutcharcoal.com` / nama perusahaan). Akti
 ### Checklist sebelum live
 - [ ] `demoMode: false`, email & WhatsApp asli, alamat, legal name/NIB
 - [ ] Spesifikasi produk sesuai hasil lab, kapasitas & MOQ benar
-- [ ] `robots.txt` diganti ke versi "Allow" (petunjuk ada di dalam file) agar bisa ditemukan Google
-- [ ] Jika memakai domain sendiri: ganti `https://aranghitam.github.io` (index.html, sitemap.xml, robots.txt, config.js)
+- [ ] Hapus baris `<meta name="robots" content="noindex, nofollow">` di `index.html` dan ganti `robots.txt` ke versi "Allow" agar bisa ditemukan Google
+- [ ] Saat pindah alamat (aranghitam.github.io / domain sendiri): ganti alamat situs di `index.html`, `sitemap.xml`, `robots.txt`, `config.js`
 - [ ] Foto produk asli di `assets/img/products/`
 - [ ] Uji kirim RFQ via WhatsApp & email
 - [ ] Daftarkan di **Google Search Console** & **Bing Webmaster Tools**, kirim `sitemap.xml`

@@ -6,11 +6,15 @@
 <title>Page not found — Arang Batok Kelapa Lampung</title>
 <meta name="robots" content="noindex">
 <meta name="theme-color" content="#0c0a09">
-<link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+<script>
+  /* Works both at a domain root and inside a GitHub Pages project folder (/aranghitam/). */
+  document.write('<base href="' + (/^\/aranghitam(\/|$)/.test(location.pathname) && !/^aranghitam\./i.test(location.hostname) ? '/aranghitam/' : '/') + '">');
+</script>
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..800;1,9..144,300..700&amp;family=Manrope:wght@400..800&amp;display=swap">
-<link rel="stylesheet" href="/assets/css/style.css">
+<link rel="stylesheet" href="assets/css/style.css">
 <style>
   .nf { display: grid; place-items: center; min-height: 100vh; padding: 40px 20px; text-align: center;
         background: radial-gradient(700px 500px at 50% 70%, rgba(255, 106, 26, .16), transparent 62%), var(--noise-dark), var(--c-950); }
@@ -22,12 +26,12 @@
 <body>
 <main class="nf">
   <div>
-    <img class="nf__mark" src="/assets/img/favicon.svg" alt="">
+    <img class="nf__mark" src="assets/img/favicon.svg" alt="">
     <p class="eyebrow" style="justify-content:center"><span class="eyebrow__line"></span><span>Error 404</span><span class="eyebrow__line"></span></p>
     <h1 class="section-title">This page has <em>burned out.</em></h1>
     <p class="section-lead">The page you are looking for does not exist. Head back to our products — or request a quote in under a minute.</p>
-    <p style="margin-top:32px"><a class="btn btn--primary btn--lg" href="/">Back to homepage</a></p>
-    <p class="nf__langs"><a href="/?lang=ar">العربية</a> · <a href="/?lang=zh">中文</a> · <a href="/?lang=ru">Русский</a> · <a href="/?lang=id">Bahasa Indonesia</a></p>
+    <p style="margin-top:32px"><a class="btn btn--primary btn--lg" href="./">Back to homepage</a></p>
+    <p class="nf__langs"><a href="./?lang=ar">العربية</a> · <a href="./?lang=zh">中文</a> · <a href="./?lang=ru">Русский</a> · <a href="./?lang=id">Bahasa Indonesia</a></p>
   </div>
 </main>
 </body>

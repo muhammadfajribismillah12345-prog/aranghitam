@@ -1,58 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Alamat situs: https://aranghitam.github.io (GitHub Pages). Ganti jika pindah ke domain sendiri. -->
+<!-- Alamat situs sementara (GitHub Pages, folder akun). Ganti saat pindah ke https://muhammadfajribismillah12345-prog.github.io/aranghitam atau domain sendiri. -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://aranghitam.github.io/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://aranghitam.github.io/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://aranghitam.github.io/?lang=ar"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://aranghitam.github.io/?lang=zh"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://aranghitam.github.io/?lang=ru"/>
-    <xhtml:link rel="alternate" hreflang="id" href="https://aranghitam.github.io/?lang=id"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://aranghitam.github.io/"/>
+    <loc>https://muhammadfajribismillah12345-prog.github.io/aranghitam/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://muhammadfajribismillah12345-prog.github.io/aranghitam/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://muhammadfajribismillah12345-prog.github.io/aranghitam/?lang=ar"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://muhammadfajribismillah12345-prog.github.io/aranghitam/?lang=zh"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://muhammadfajribismillah12345-prog.github.io/aranghitam/?lang=ru"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://muhammadfajribismillah12345-prog.github.io/aranghitam/?lang=id"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://muhammadfajribismillah12345-prog.github.io/aranghitam/"/>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://aranghitam.github.io/?lang=ar</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://aranghitam.github.io/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://aranghitam.github.io/?lang=ar"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://aranghitam.github.io/?lang=zh"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://aranghitam.github.io/?lang=ru"/>
-    <xhtml:link rel="alternate" hreflang="id" href="https://aranghitam.github.io/?lang=id"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://aranghitam.github.io/"/>
+    <loc>https://muhammadfajribismillah12345-prog.github.io/aranghitam/?lang=ar</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://muhammadfajribismillah12345-prog.github.io/aranghitam/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://muhammadfajribismillah12345-prog.github.io/aranghitam/?lang=ar"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://muhammadfajribismillah12345-prog.github.io/aranghitam/?lang=zh"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://muhammadfajribismillah12345-prog.github.io/aranghitam/?lang=ru"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://muhammadfajribismillah12345-prog.github.io/aranghitam/?lang=id"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://muhammadfajribismillah12345-prog.github.io/aranghitam/"/>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://aranghitam.github.io/?lang=zh</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://aranghitam.github.io/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://aranghitam.github.io/?lang=ar"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://aranghitam.github.io/?lang=zh"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://aranghitam.github.io/?lang=ru"/>
-    <xhtml:link rel="alternate" hreflang="id" href="https://aranghitam.github.io/?lang=id"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://aranghitam.github.io/"/>
+    <loc>https://muhammadfajribismillah12345-prog.github.io/aranghitam/?lang=zh</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://muhammadfajribismillah12345-prog.github.io/aranghitam/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://muhammadfajribismillah12345-prog.github.io/aranghitam/?lang=ar"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://muhammadfajribismillah12345-prog.github.io/aranghitam/?lang=zh"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://muhammadfajribismillah12345-prog.github.io/aranghitam/?lang=ru"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://muhammadfajribismillah12345-prog.github.io/aranghitam/?lang=id"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://muhammadfajribismillah12345-prog.github.io/aranghitam/"/>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://aranghitam.github.io/?lang=ru</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://aranghitam.github.io/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://aranghitam.github.io/?lang=ar"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://aranghitam.github.io/?lang=zh"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://aranghitam.github.io/?lang=ru"/>
-    <xhtml:link rel="alternate" hreflang="id" href="https://aranghitam.github.io/?lang=id"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://aranghitam.github.io/"/>
+    <loc>https://muhammadfajribismillah12345-prog.github.io/aranghitam/?lang=ru</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://muhammadfajribismillah12345-prog.github.io/aranghitam/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://muhammadfajribismillah12345-prog.github.io/aranghitam/?lang=ar"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://muhammadfajribismillah12345-prog.github.io/aranghitam/?lang=zh"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://muhammadfajribismillah12345-prog.github.io/aranghitam/?lang=ru"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://muhammadfajribismillah12345-prog.github.io/aranghitam/?lang=id"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://muhammadfajribismillah12345-prog.github.io/aranghitam/"/>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://aranghitam.github.io/?lang=id</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://aranghitam.github.io/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://aranghitam.github.io/?lang=ar"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://aranghitam.github.io/?lang=zh"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://aranghitam.github.io/?lang=ru"/>
-    <xhtml:link rel="alternate" hreflang="id" href="https://aranghitam.github.io/?lang=id"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://aranghitam.github.io/"/>
+    <loc>https://muhammadfajribismillah12345-prog.github.io/aranghitam/?lang=id</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://muhammadfajribismillah12345-prog.github.io/aranghitam/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://muhammadfajribismillah12345-prog.github.io/aranghitam/?lang=ar"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://muhammadfajribismillah12345-prog.github.io/aranghitam/?lang=zh"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://muhammadfajribismillah12345-prog.github.io/aranghitam/?lang=ru"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://muhammadfajribismillah12345-prog.github.io/aranghitam/?lang=id"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://muhammadfajribismillah12345-prog.github.io/aranghitam/"/>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
