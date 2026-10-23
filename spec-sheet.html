@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Technical Data Sheet — Arang Batok Kelapa Lampung</title>
+<meta name="robots" content="noindex, follow">
+<meta name="theme-color" content="#14110f">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..800;1,9..144,300..700&amp;family=Manrope:wght@400..800&amp;display=swap">
+<link rel="stylesheet" href="assets/css/sheet.css">
+<script>
+(function () {
+  var d = document.documentElement, langs = ['en', 'ar', 'zh', 'ru', 'id'], s = '';
+  try {
+    s = new URLSearchParams(location.search).get('lang') || localStorage.getItem('abkl.lang') || '';
+    if (!s) s = (navigator.language || 'en').slice(0, 2).toLowerCase();
+  } catch (e) {}
+  if (langs.indexOf(s) < 0) s = 'en';
+  d.lang = s;
+  d.dir = s === 'ar' ? 'rtl' : 'ltr';
+  if (s !== 'en') { d.className += ' i18n-pending'; setTimeout(function () { d.classList.remove('i18n-pending'); }, 2500); }
+})();
+</script>
+<script src="assets/js/config.js"></script>
+<script src="assets/js/i18n/en.js"></script>
+<script defer src="assets/js/core.js"></script>
+<script defer src="assets/js/sheet.js"></script>
+</head>
+<body>
+
+<div class="toolbar">
+  <a class="tb-btn tb-btn--ghost" href="index.html"><span aria-hidden="true" class="tb-arrow">←</span><span data-i18n="sheet.back">Back to website</span></a>
+  <label class="tb-field"><span data-i18n="calc.product">Product</span><select id="selProduct"></select></label>
+  <label class="tb-field"><span data-i18n="calc.variant">Size / shape</span><select id="selVariant"></select></label>
+  <label class="tb-field"><span data-i18n="nav.language">Language</span><select id="selLang"></select></label>
+  <button type="button" class="tb-btn tb-btn--primary" id="btnPrint"><span data-i18n="sheet.print">Print / Save as PDF</span></button>
+</div>
+
+<main class="sheet" id="sheet">
+  <header class="sh-head">
+    <div class="sh-brand">
+      <svg viewBox="0 0 48 48" aria-hidden="true">
+        <defs><linearGradient id="shEmber" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffc06a"/><stop offset=".45" stop-color="#ff6a1a"/><stop offset="1" stop-color="#9c2a06"/></linearGradient></defs>
+        <path d="M24 4l18 10-18 10L6 14z" fill="#3a332d"/><path d="M6 14l18 10v20L6 34z" fill="#171412"/><path d="M24 24l18-10v20L24 44z" fill="url(#shEmber)"/>
+        <circle cx="24" cy="10" r="1.7" fill="#f3e9da"/><circle cx="19.6" cy="14.6" r="1.7" fill="#f3e9da"/><circle cx="28.4" cy="14.6" r="1.7" fill="#f3e9da"/>
+      </svg>
+      <span><b class="js-company">Arang Batok Kelapa Lampung</b><small>Coconut Shell Charcoal · Lampung · Indonesia</small></span>
+    </div>
+    <div class="sh-meta">
+      <strong data-i18n="sheet.title">Technical Data Sheet</strong>
+      <span><span data-i18n="sheet.docNo">Doc. no.</span> <b id="docNo" dir="ltr">TDS</b></span>
+      <span><span data-i18n="sheet.issued">Issued</span> <b id="docDate"></b></span>
+    </div>
+  </header>
+  <div class="sh-rule"></div>
+
+  <section class="sh-hero">
+    <div class="sh-art" id="shArt"></div>
+    <div class="sh-intro">
+      <p class="sh-tag" id="shTag"></p>
+      <h1 class="sh-name" id="shName"></h1>
+      <p class="sh-variant" id="shVariant"></p>
+      <p class="sh-desc" id="shDesc"></p>
+      <ul class="sh-keys" id="shKeys"></ul>
+    </div>
+  </section>
+
+  <section class="sh-grid">
+    <div class="sh-block">
+      <h2 data-i18n="prod.specs">Technical specifications</h2>
+      <table class="sh-table"><tbody id="shSpecs"></tbody></table>
+    </div>
+    <div class="sh-block">
+      <h2 data-i18n="prod.packaging">Packaging options</h2>
+      <ul class="sh-list" id="shPack"></ul>
+      <h2 data-i18n="prod.loading">Container loading (approx.)</h2>
+      <div class="sh-load" id="shLoad"></div>
+      <h2 data-i18n="prod.uses">Best for</h2>
+      <ul class="sh-list" id="shUses"></ul>
+    </div>
+  </section>
+
+  <section class="sh-grid">
+    <div class="sh-block">
+      <h2 data-i18n="sheet.terms">Trade terms</h2>
+      <table class="sh-table sh-table--terms"><tbody id="shTerms"></tbody></table>
+    </div>
+    <div class="sh-block">
+      <h2 data-i18n="terms.docs.t">Export documents</h2>
+      <ul class="sh-list sh-list--docs">
+        <li data-i18n="doc.1">Commercial invoice &amp; packing list</li>
+        <li data-i18n="doc.2">Bill of lading (B/L)</li>
+        <li data-i18n="doc.3">Certificate of origin (preferential forms where applicable)</li>
+        <li data-i18n="doc.4">Certificate of analysis (COA)</li>
+        <li data-i18n="doc.5">MSDS / SDS</li>
+        <li data-i18n="doc.6">Self-heating test (UN N.4) report for non-DG shipping</li>
+        <li data-i18n="doc.7">Fumigation certificate when pallets are used</li>
+        <li data-i18n="doc.8">Third-party inspection welcome (SGS, Sucofindo …)</li>
+      </ul>
+    </div>
+  </section>
+
+  <footer class="sh-foot">
+    <div class="sh-contact">
+      <h2 data-i18n="footer.contact">Contact</h2>
+      <dl id="shContact"></dl>
+    </div>
+    <figure class="sh-qr" id="shQrWrap" hidden>
+      <div id="shQr"></div>
+      <figcaption id="shQrLabel"></figcaption>
+    </figure>
+    <p class="sh-note" data-i18n="sheet.note">Typical values. A Certificate of Analysis (COA) is issued for every shipment. Specifications and packaging can be adjusted to your requirements.</p>
+  </footer>
+</main>
+
+</body>
+</html>

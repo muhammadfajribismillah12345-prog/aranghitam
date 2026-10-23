@@ -1,0 +1,10 @@
+# PRATINJAU (demoMode: true) — sengaja disembunyikan dari mesin pencari
+# selama kontak & spesifikasi masih data contoh.
+#
+# Saat situs resmi live, ganti seluruh isi file ini dengan:
+#   User-agent: *
+#   Allow: /
+#   Sitemap: https://aranghitam.github.io/sitemap.xml
+
+User-agent: *
+Disallow: /
