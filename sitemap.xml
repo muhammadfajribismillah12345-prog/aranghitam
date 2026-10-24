@@ -1,58 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Alamat situs sementara (GitHub Pages, folder akun). Ganti saat pindah ke https://muhammadfajribismillah12345-prog.github.io/aranghitam atau domain sendiri. -->
+<!-- Alamat situs: https://aranghitam.garudanexa.com (hosting cPanel garudanexa.com). -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://muhammadfajribismillah12345-prog.github.io/aranghitam/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://muhammadfajribismillah12345-prog.github.io/aranghitam/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://muhammadfajribismillah12345-prog.github.io/aranghitam/?lang=ar"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://muhammadfajribismillah12345-prog.github.io/aranghitam/?lang=zh"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://muhammadfajribismillah12345-prog.github.io/aranghitam/?lang=ru"/>
-    <xhtml:link rel="alternate" hreflang="id" href="https://muhammadfajribismillah12345-prog.github.io/aranghitam/?lang=id"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://muhammadfajribismillah12345-prog.github.io/aranghitam/"/>
+    <loc>https://aranghitam.garudanexa.com/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aranghitam.garudanexa.com/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://aranghitam.garudanexa.com/?lang=ar"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://aranghitam.garudanexa.com/?lang=zh"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://aranghitam.garudanexa.com/?lang=ru"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://aranghitam.garudanexa.com/?lang=id"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://aranghitam.garudanexa.com/"/>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://muhammadfajribismillah12345-prog.github.io/aranghitam/?lang=ar</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://muhammadfajribismillah12345-prog.github.io/aranghitam/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://muhammadfajribismillah12345-prog.github.io/aranghitam/?lang=ar"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://muhammadfajribismillah12345-prog.github.io/aranghitam/?lang=zh"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://muhammadfajribismillah12345-prog.github.io/aranghitam/?lang=ru"/>
-    <xhtml:link rel="alternate" hreflang="id" href="https://muhammadfajribismillah12345-prog.github.io/aranghitam/?lang=id"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://muhammadfajribismillah12345-prog.github.io/aranghitam/"/>
+    <loc>https://aranghitam.garudanexa.com/?lang=ar</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aranghitam.garudanexa.com/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://aranghitam.garudanexa.com/?lang=ar"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://aranghitam.garudanexa.com/?lang=zh"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://aranghitam.garudanexa.com/?lang=ru"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://aranghitam.garudanexa.com/?lang=id"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://aranghitam.garudanexa.com/"/>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://muhammadfajribismillah12345-prog.github.io/aranghitam/?lang=zh</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://muhammadfajribismillah12345-prog.github.io/aranghitam/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://muhammadfajribismillah12345-prog.github.io/aranghitam/?lang=ar"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://muhammadfajribismillah12345-prog.github.io/aranghitam/?lang=zh"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://muhammadfajribismillah12345-prog.github.io/aranghitam/?lang=ru"/>
-    <xhtml:link rel="alternate" hreflang="id" href="https://muhammadfajribismillah12345-prog.github.io/aranghitam/?lang=id"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://muhammadfajribismillah12345-prog.github.io/aranghitam/"/>
+    <loc>https://aranghitam.garudanexa.com/?lang=zh</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aranghitam.garudanexa.com/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://aranghitam.garudanexa.com/?lang=ar"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://aranghitam.garudanexa.com/?lang=zh"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://aranghitam.garudanexa.com/?lang=ru"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://aranghitam.garudanexa.com/?lang=id"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://aranghitam.garudanexa.com/"/>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://muhammadfajribismillah12345-prog.github.io/aranghitam/?lang=ru</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://muhammadfajribismillah12345-prog.github.io/aranghitam/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://muhammadfajribismillah12345-prog.github.io/aranghitam/?lang=ar"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://muhammadfajribismillah12345-prog.github.io/aranghitam/?lang=zh"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://muhammadfajribismillah12345-prog.github.io/aranghitam/?lang=ru"/>
-    <xhtml:link rel="alternate" hreflang="id" href="https://muhammadfajribismillah12345-prog.github.io/aranghitam/?lang=id"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://muhammadfajribismillah12345-prog.github.io/aranghitam/"/>
+    <loc>https://aranghitam.garudanexa.com/?lang=ru</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aranghitam.garudanexa.com/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://aranghitam.garudanexa.com/?lang=ar"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://aranghitam.garudanexa.com/?lang=zh"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://aranghitam.garudanexa.com/?lang=ru"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://aranghitam.garudanexa.com/?lang=id"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://aranghitam.garudanexa.com/"/>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://muhammadfajribismillah12345-prog.github.io/aranghitam/?lang=id</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://muhammadfajribismillah12345-prog.github.io/aranghitam/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://muhammadfajribismillah12345-prog.github.io/aranghitam/?lang=ar"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://muhammadfajribismillah12345-prog.github.io/aranghitam/?lang=zh"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://muhammadfajribismillah12345-prog.github.io/aranghitam/?lang=ru"/>
-    <xhtml:link rel="alternate" hreflang="id" href="https://muhammadfajribismillah12345-prog.github.io/aranghitam/?lang=id"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://muhammadfajribismillah12345-prog.github.io/aranghitam/"/>
+    <loc>https://aranghitam.garudanexa.com/?lang=id</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aranghitam.garudanexa.com/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://aranghitam.garudanexa.com/?lang=ar"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://aranghitam.garudanexa.com/?lang=zh"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://aranghitam.garudanexa.com/?lang=ru"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://aranghitam.garudanexa.com/?lang=id"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://aranghitam.garudanexa.com/"/>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>

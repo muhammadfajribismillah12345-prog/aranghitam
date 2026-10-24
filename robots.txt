@@ -4,7 +4,7 @@
 # Saat situs resmi live, ganti seluruh isi file ini dengan:
 #   User-agent: *
 #   Allow: /
-#   Sitemap: https://aranghitam.github.io/sitemap.xml
+#   Sitemap: https://aranghitam.garudanexa.com/sitemap.xml
 
 User-agent: *
 Disallow: /

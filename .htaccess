@@ -1,0 +1,19 @@
+# Arang Batok Kelapa Lampung — pengaturan Apache untuk hosting cPanel
+DirectoryIndex index.html
+ErrorDocument 404 /404.html
+Options -Indexes
+
+# Teks 5 bahasa (Arab, Mandarin, Rusia) wajib dikirim sebagai UTF-8
+AddCharset UTF-8 .html .css .js .json .xml .txt .webmanifest .svg
+<IfModule mod_mime.c>
+  AddType application/manifest+json .webmanifest
+  AddType image/svg+xml .svg
+</IfModule>
+
+<IfModule mod_headers.c>
+  Header set X-Content-Type-Options "nosniff"
+  Header set Referrer-Policy "strict-origin-when-cross-origin"
+  <FilesMatch "\.(css|js|svg|png|jpg|jpeg|webp|ico)$">
+    Header set Cache-Control "public, max-age=86400"
+  </FilesMatch>
+</IfModule>

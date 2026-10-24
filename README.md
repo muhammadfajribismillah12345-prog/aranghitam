@@ -34,6 +34,7 @@ spec-sheet.html         Lembar data teknis (print / PDF)
 site.webmanifest        Ikon & warna aplikasi
 robots.txt, sitemap.xml SEO (ganti domain!)
 _headers                Header keamanan & cache (Netlify / Cloudflare Pages)
+.htaccess               Pengaturan Apache untuk hosting cPanel (UTF-8, 404, cache)
 assets/
   css/style.css         Desain utama          css/sheet.css   Desain spec sheet
   js/config.js          ★ DATA BISNIS — cukup edit file ini
@@ -71,7 +72,7 @@ Buka dengan editor teks (Notepad++, VS Code). Yang **wajib** diganti sebelum liv
 | `products[].loadKg` | `{ "20ft": 18000 }` | Kapasitas muat per kontainer |
 | `ports[].days` | `[14, 20]` | Estimasi transit (hari) — cocokkan dengan forwarder Anda |
 
-Alamat situs saat ini `https://muhammadfajribismillah12345-prog.github.io/aranghitam/` (terpasang di `config.js`, `index.html` — tag `canonical`, `og:url`, `og:image` — dan `sitemap.xml`). Saat pindah ke `https://aranghitam.github.io` atau domain sendiri, ganti alamat itu di ketiga file tersebut.
+Alamat situs saat ini `https://aranghitam.garudanexa.com` (terpasang di `config.js`, `index.html` — tag `canonical`, `og:url`, `og:image` — `sitemap.xml`, dan `robots.txt`). Bila nanti memakai domain sendiri, ganti alamat itu di keempat file tersebut.
 
 ### Foto produk asli
 Simpan foto (rasio 4:3, ±1200×900 px, JPG/WebP) di `assets/img/products/`, lalu isi `image` pada produk:
@@ -116,31 +117,35 @@ Kirim PDF ini ke buyer via WhatsApp/email — QR code di dalamnya langsung membu
 
 ## 5. Online-kan (hosting)
 
-**Saat ini:** di-hosting gratis di **GitHub Pages** →
-`https://muhammadfajribismillah12345-prog.github.io/aranghitam/`
+**Alamat resmi:** `https://aranghitam.garudanexa.com` — subdomain di hosting cPanel garudanexa.com
+(folder `/home/garudanexa/aranghitam.garudanexa.com`).
+
+**Cadangan:** GitHub Pages → `https://muhammadfajribismillah12345-prog.github.io/aranghitam/`
 (repository `muhammadfajribismillah12345-prog/aranghitam`, branch `main`).
 
-**Rencana:** pindah ke subdomain `https://aranghitam.github.io` setelah organisasi GitHub
-`aranghitam` dibuat (repository `aranghitam.github.io` di organisasi itu).
+Cara memperbarui website setelah mengedit file:
+1. Simpan ke GitHub (dari folder ini, di terminal) — salinan GitHub Pages ikut berubah ±1 menit kemudian:
+   ```
+   git add -A
+   git commit -m "Perbarui data"
+   git push
+   ```
+2. Unggah ke cPanel: **File Manager** → buka folder `aranghitam.garudanexa.com` → **Upload** file yang berubah
+   (atau ZIP seluruh isi folder, unggah, lalu **Extract**). Tidak perlu ikut mengunggah `.git`, `README.md`, `_headers`, `.nojekyll`.
 
-Cara memperbarui website setelah mengedit file (dari folder ini, di terminal):
-```
-git add -A
-git commit -m "Perbarui data"
-git push
-```
-Perubahan tampil online ±1 menit kemudian.
+Catatan hosting:
+- `.htaccess` di server berisi pengaturan PHP bawaan cPanel (bagian atas) + pengaturan website ini. Bila tertimpa saat
+  unggah ulang, website tetap jalan karena tidak memakai PHP; pengaturan PHP bisa dipulihkan lewat *MultiPHP INI Editor*.
+- DNS garudanexa.com melewati Cloudflare, yang otomatis menambah skrip analitik, menyamarkan email di HTML (dipulihkan
+  lagi oleh website saat dimuat), dan menyisipkan aturan "Allow" + AI-crawler di awal `robots.txt`. File di hosting tidak berubah.
 
-Selama masih pratinjau, situs sengaja disembunyikan dari Google (tag `noindex` di `index.html`,
-plus `robots.txt` bila nanti di-hosting di root domain).
+Selama masih pratinjau, situs sengaja disembunyikan dari Google lewat tag `noindex` di setiap halaman HTML
+(`robots.txt` saja tidak cukup karena aturan "Allow" dari Cloudflare di atas).
 Saat resmi live: `demoMode: false`, hapus baris `<meta name="robots" …>` di `index.html`,
 dan ganti isi `robots.txt` sesuai petunjuk di dalam file itu.
 
-Alternatif lain (juga tanpa server atau database):
-
-1. **Netlify** (paling mudah): app.netlify.com → *Add new site → Deploy manually* → seret folder ini. Lalu hubungkan domain.
-2. **Cloudflare Pages / GitHub Pages**: upload isi folder ke repository, aktifkan Pages.
-3. **Hosting cPanel** (Niagahoster, Rumahweb, dll.): upload semua isi folder ke `public_html` via File Manager.
+Alternatif lain (juga tanpa server atau database): **Netlify** (app.netlify.com → *Add new site → Deploy manually* →
+seret folder ini) atau **Cloudflare Pages**.
 
 Saran domain: `.com` (mis. `lampungcoconutcharcoal.com` / nama perusahaan). Aktifkan HTTPS (gratis di semua opsi di atas).
 
@@ -148,7 +153,8 @@ Saran domain: `.com` (mis. `lampungcoconutcharcoal.com` / nama perusahaan). Akti
 - [ ] `demoMode: false`, email & WhatsApp asli, alamat, legal name/NIB
 - [ ] Spesifikasi produk sesuai hasil lab, kapasitas & MOQ benar
 - [ ] Hapus baris `<meta name="robots" content="noindex, nofollow">` di `index.html` dan ganti `robots.txt` ke versi "Allow" agar bisa ditemukan Google
-- [ ] Saat pindah alamat (aranghitam.github.io / domain sendiri): ganti alamat situs di `index.html`, `sitemap.xml`, `robots.txt`, `config.js`
+- [ ] Saat pindah ke domain sendiri: ganti alamat situs di `index.html`, `sitemap.xml`, `robots.txt`, `config.js`
+- [ ] Unggah ulang file yang berubah ke cPanel (folder `aranghitam.garudanexa.com`)
 - [ ] Foto produk asli di `assets/img/products/`
 - [ ] Uji kirim RFQ via WhatsApp & email
 - [ ] Daftarkan di **Google Search Console** & **Bing Webmaster Tools**, kirim `sitemap.xml`

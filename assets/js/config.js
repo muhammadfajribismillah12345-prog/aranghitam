@@ -19,7 +19,7 @@ window.SITE = {
     email: "export@example.com",          // CONTOH — ganti email bisnis asli
     whatsapp: "",                         // hanya angka + kode negara, CONTOH: "6281234567890"
     phone: "",                            // tampilan telepon, CONTOH: "+62 812-3456-7890"
-    website: "https://muhammadfajribismillah12345-prog.github.io/aranghitam", // alamat situs (SEO, og:url, QR spec sheet) — ganti ke https://aranghitam.github.io saat organisasi sudah jadi
+    website: "https://aranghitam.garudanexa.com", // alamat situs (SEO, og:url, QR spec sheet)
     social: { instagram: "", linkedin: "", youtube: "", facebook: "", tiktok: "" },
     coords: { lat: -5.45, lon: 105.27 }   // titik asal di globe pengiriman (Bandar Lampung)
   },
